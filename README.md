@@ -7,3 +7,6 @@ The objective of this work was an animation on the loading screen.
 Thanks for reading me :)
 
 See you ^^
+
+Apprentices: Inês Eustáquio Caetano Ribeiro
+             Iury Feitosa da Rocha
