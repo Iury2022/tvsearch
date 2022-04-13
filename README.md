@@ -8,5 +8,5 @@ Thanks for reading me :)
 
 See you ^^
 
-Apprentices: Inês Eustáquio Caetano Ribeiro
+Apprentices: Inês Eustáquio Caetano Ribeiro e
              Iury Feitosa da Rocha
