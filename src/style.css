@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "title";
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: "regular";
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  background-color: #24252a;
+}
+
+#container {
+  width: 70%;
+  margin: auto;
+}
+
+#search-form {
+  text-align: center;
+  margin: 50px 0 20px 0;
+}
+
+#search-form input {
+  width: 400px;
+  height: 30px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  text-align: center;
+  margin-right: 10px;
+  font-family: "regular";
+  font-size: 100%;
+}
+
+#search-form button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  background-color: green;
+  font-family: "title";
+  font-size: 100%;
+}
+
+#result-area {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.tv-card {
+  max-width: 33vw;
+  margin-bottom: 20px;
+  margin: 30px;
+}
+
+.tv-card h3 {
+  font-family: "title";
+  color: white;
+}
+
+.show-banner img {
+  border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#show-container {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  width: 60%;
+  margin: 50px auto;
+}
+
+#image-container {
+  width: 50%;
+  text-align: center;
+  background-color: #24252a;
+  padding: 18px 0;
+  border-radius: 15px;
+}
+
+#image-container img {
+  width: 90%;
+}
+
+#details-container {
+  width: 50%;
+  font-family: 'regular';
+  padding: 0 20px;
+  position: relative;
+}
+
+.detail-title {
+  font-family: 'title';
+}
+
+#backbtn {
+  background-color: green;
+  color: white;
+  border: none;
+  font-family: title;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: block;
+  width: 100px;
+  font-size: 100%;
+  text-align: center;
+  bottom: 0;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0deg);
+  }
+  
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#loader-div {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#loader {
+  display: none;
+  width: 200px;
+  height: 200px;
+  animation: loading 3s linear infinite;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  #container {
+    width: 100%;
+  }
+
+  #search-form input, #search-form button {
+    display: block;
+    margin: auto;
+  }
+
+  #search-form input {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .tv-card {
+    width: 100%;
+    max-width: none;
+  }
+
+  .show-banner img {
+    width: 100%;
+  }
+
+  #show-container {
+    width: 100%;
+  }
+}
